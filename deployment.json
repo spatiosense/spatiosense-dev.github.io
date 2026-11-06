@@ -7,8 +7,8 @@
     "dirty": false
   },
   "build": {
-    "timestamp": "2026-11-06T03:32:00.689Z",
-    "artifactHash": "sha256:c8f1cca18d64f4493f4da833b13256229a7dc5c647837844cb014017898b63ea"
+    "timestamp": "2026-11-06T10:58:26.244Z",
+    "artifactHash": "sha256:ee5cfa5f55c5a69f57e1fcd38a8846b60f3cc6b0b95a3c0ee7a2a3ad7fee40d9"
   },
   "embodx": {
     "commit": "480fbb855289d1f0719f6effedbe9b0d3d8ef847",
@@ -18,6 +18,6 @@
     "lto": "thin"
   },
   "release": {
-    "commit": "e22dbddc6fdd063655c60335aa5aa9eb89dc00a1"
+    "commit": "357cdc2f8e90c11cd42c4b58c01fef8e632528d0"
   }
 }
