@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "hashes": {
-    "web": "f8f2ea33aab153d1adfc718150a83c843dec1f824f44c56b80dd21a48f792265",
-    "wasm": "24c241286288070a55ab44b19810072ec3b1810b99988a991cc70d0316b04efe",
+    "web": "b1263a57cec3d8ee0b087a1ea134dfd31c5658301d7189f06365644a7afdb457",
+    "wasm": "c96206f33b79fde38f45f4fdda145828d78444b4f451ed2e44d0611bdc954883",
     "assembly": "8122c68b2aed5ba11ed12d1b31451ee2cb212bf3df97bbb3698c90347e7ebcfd"
   },
   "webSource": {
     "branch": "main",
-    "commit": "78daae99474260f8b692c9e8298c905ad25a994f",
+    "commit": "f9d7980cd2bf1aaf91ddbdf2e9e4fae4e9ba64f6",
     "dirty": false,
-    "remoteMainCommit": "78daae99474260f8b692c9e8298c905ad25a994f"
+    "remoteMainCommit": "f9d7980cd2bf1aaf91ddbdf2e9e4fae4e9ba64f6"
   },
   "webArtifactHash": "65184876add887fcd344a13209a7a923fc06377f15a83fe92da97dcb0de8b53a"
 }
