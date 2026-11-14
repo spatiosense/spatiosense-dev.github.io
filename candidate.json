@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "source": "a06dd2f37a3f4c899dacf2e2af8a59acd2fef23f",
+  "source": "064735ce04747ff1a28f3d6c37dcc2b4b8a2ebfa",
   "backend": {
-    "image": "australia-southeast1-docker.pkg.dev/automated-defect-detection/spatiosense-backend/loco@sha256:37eae1b018d6945dbb1297f219a81ed5b846306df859103aaf9b0847acfecf95",
-    "fingerprint": "bb2b3c847e26f394a56ae971068710c94cf8fb89fa7eefff5a3c9913803c1359"
+    "image": "australia-southeast1-docker.pkg.dev/automated-defect-detection/spatiosense-backend/loco@sha256:951e65289af50c22da3d8e0de12885b7b89bf046936996f70be1f610ea2a607c",
+    "fingerprint": "99802a415ef64cce3c0482d1221a652f00368eb3fa8f88ef61ec56cc8a26d071"
   },
-  "contentHash": "5f07d91926d40839b7360bd45833bd4ac323fbcfb369da59ea3fb2c19746046f"
+  "contentHash": "c9f615ad88cb6230ead5a5277841d229c3358f1d0f524f3a2bce2e89c3c05aae"
 }

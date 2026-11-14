@@ -1,4 +1,4 @@
-import{a as Yr,j as Yu}from"./index-aMDZYEDH.js";/**
+import{b as Yr,j as Yu}from"./index-n9g7G1Et.js";/**
  * @license
  * Copyright 2010-2026 Three.js Authors
  * SPDX-License-Identifier: MIT
