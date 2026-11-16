@@ -2,22 +2,22 @@
   "schema": 1,
   "channel": "prod",
   "source": {
-    "commit": "6d059ca59f839c28c0cf4758d574262d7accffcd",
+    "commit": "87c23b506020a310bb9221e13ff1036d3f729e41",
     "branch": "main",
     "dirty": false
   },
   "build": {
-    "timestamp": "2026-11-16T00:39:11.782Z",
-    "artifactHash": "sha256:5d87da2acbdc94a0ee1a8a16d6b8821e0edc3a70feb65d777559bd7fc0aa949b"
+    "timestamp": "2026-11-16T11:31:09.002Z",
+    "artifactHash": "sha256:b6e0b9fd52102404d430cf36a3e3ae5a9e3598799db4dce8ea565135a17ba887"
   },
   "embodx": {
-    "commit": "6d059ca59f839c28c0cf4758d574262d7accffcd",
+    "commit": "87c23b506020a310bb9221e13ff1036d3f729e41",
     "branch": "detached",
     "dirtyAtStart": false,
-    "startedAt": "2026-11-16T00:07:42.529Z",
+    "startedAt": "2026-11-16T11:02:50.123Z",
     "lto": "thin"
   },
   "release": {
-    "commit": "6d059ca59f839c28c0cf4758d574262d7accffcd"
+    "commit": "87c23b506020a310bb9221e13ff1036d3f729e41"
   }
 }
