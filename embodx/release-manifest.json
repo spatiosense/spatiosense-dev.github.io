@@ -5,12 +5,12 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:e837eda32e7116aa21c77af3f27368088372d6bfa6295830eac1eb3dbad4523b",
+  "sourceHash": "sha256:3bfe6fee3f221ceaae950373a1cc328f2706f20e4c4aa343dbb85e2ce89a2505",
   "build": {
-    "commit": "87c23b506020a310bb9221e13ff1036d3f729e41",
+    "commit": "be05e9ac36a82e93ba747e334bd53ba456c3a450",
     "branch": "detached",
     "dirtyAtStart": false,
-    "startedAt": "2026-11-16T11:02:50.123Z",
+    "startedAt": "2026-11-16T11:35:23.726Z",
     "lto": "thin"
   },
   "artifacts": [
@@ -103,16 +103,16 @@
       "sha256": "ceb439c9187c5968cd37ec3d9a7e52f050cd172af6a03b12e0f029d9df9c141f"
     },
     {
-      "path": "webgl/embodx-f7861a21800e5fcd_bg.wasm",
-      "sha256": "bdbc630e17002847e8712eaa2244cddd2097b1b5a2c986c4b4ded1c83e6911ae"
+      "path": "webgl/embodx-6bbe4228a7dcc5f8_bg.wasm",
+      "sha256": "f5e33c5cf7e4f2b47fca2b044048b0d6d757382fe1b4f30c09e8fb94be2d6db0"
     },
     {
-      "path": "webgl/embodx-f7861a21800e5fcd.js",
+      "path": "webgl/embodx-6bbe4228a7dcc5f8.js",
       "sha256": "93a65d416473f1a967847feff2df4d3cdd5568dc66c4a3f5f54c7ba3ae13ae96"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "1a2e7f38db96c908d1e954f90260f8e6c0699811af0fe810101d57f6f4cfcd8f"
+      "sha256": "4e656f5142801092488a8be86698a77ffb5d7cc94c511857198818373a7ef672"
     },
     {
       "path": "webgl/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
@@ -239,16 +239,16 @@
       "sha256": "ceb439c9187c5968cd37ec3d9a7e52f050cd172af6a03b12e0f029d9df9c141f"
     },
     {
-      "path": "webgpu/embodx-27a72ee5562f52bb_bg.wasm",
-      "sha256": "98001f3852f7a2492eb6ca37af26cb3291e9bf2da5e2a4a87765c90de1be1f63"
+      "path": "webgpu/embodx-5b02c7e1a3bdd62d_bg.wasm",
+      "sha256": "5c53da83a101735252c850669604d928c83928160447feaee225cf2d31ecda05"
     },
     {
-      "path": "webgpu/embodx-27a72ee5562f52bb.js",
+      "path": "webgpu/embodx-5b02c7e1a3bdd62d.js",
       "sha256": "4ffdf1f8c8b2873b6181b6fecf99e8d73c185aedbdbf7d9479413cc276fc32ff"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "6caf90f03f467a59e36d8158dee6b0ec36a413c6ca43a4fa14567f02152143e5"
+      "sha256": "a049ff7763286a2e2f0c5959cf902f75cfd610dfd7203582d75fa3eafab27586"
     },
     {
       "path": "webgpu/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
