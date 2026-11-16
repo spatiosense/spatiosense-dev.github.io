@@ -14,7 +14,7 @@ export class DepthSorter {
     }
     /**
      * Retain XYZ positions once, rather than transferring them on camera motion.
-     * @param {Float32Array} positions
+     * @param {Float32Array | number[]} positions
      */
     constructor(positions) {
         const ptr0 = passArrayF32ToWasm0(positions, wasm.__wbindgen_malloc);
@@ -23,13 +23,13 @@ export class DepthSorter {
         if (ret[2]) {
             throw takeFromExternrefTable0(ret[1]);
         }
-        this.__wbg_ptr = ret[0] >>> 0;
+        this.__wbg_ptr = ret[0];
         DepthSorterFinalization.register(this, this.__wbg_ptr, this);
         return this;
     }
     /**
      * Return back-to-front indices using the world-to-view Z row (including W).
-     * @param {Float32Array} axis
+     * @param {Float32Array | number[]} axis
      * @returns {Uint32Array}
      */
     sort(axis) {
@@ -45,26 +45,24 @@ export class DepthSorter {
     }
 }
 if (Symbol.dispose) DepthSorter.prototype[Symbol.dispose] = DepthSorter.prototype.free;
-
 function __wbg_get_imports() {
     const import0 = {
         __proto__: null,
-        __wbg___wbindgen_throw_81fc77679af83bc6: function(arg0, arg1) {
+        __wbg___wbindgen_throw_4c88d8bf264fd984: function(arg0, arg1) {
             throw new Error(getStringFromWasm0(arg0, arg1));
         },
-        __wbindgen_cast_0000000000000001: function(arg0, arg1) {
+        __wbindgen_generic_0000000000000001: function(arg0, arg1) {
             // Cast intrinsic for `Ref(String) -> Externref`.
             const ret = getStringFromWasm0(arg0, arg1);
             return ret;
         },
         __wbindgen_init_externref_table: function() {
             const table = wasm.__wbindgen_externrefs;
-            const offset = table.grow(4);
             table.set(0, undefined);
-            table.set(offset + 0, undefined);
-            table.set(offset + 1, null);
-            table.set(offset + 2, true);
-            table.set(offset + 3, false);
+            table.set(1024, undefined);
+            table.set(1025, null);
+            table.set(1026, true);
+            table.set(1027, false);
         },
     };
     return {
@@ -75,7 +73,7 @@ function __wbg_get_imports() {
 
 const DepthSorterFinalization = (typeof FinalizationRegistry === 'undefined')
     ? { register: () => {}, unregister: () => {} }
-    : new FinalizationRegistry(ptr => wasm.__wbg_depthsorter_free(ptr >>> 0, 1));
+    : new FinalizationRegistry(ptr => wasm.__wbg_depthsorter_free(ptr, 1));
 
 function getArrayU32FromWasm0(ptr, len) {
     ptr = ptr >>> 0;
@@ -92,7 +90,7 @@ function getFloat32ArrayMemory0() {
 
 function getStringFromWasm0(ptr, len) {
     ptr = ptr >>> 0;
-    return decodeText(ptr, len);
+    return decodeText(getUint8ArrayMemory0().subarray(ptr, ptr + len));
 }
 
 let cachedUint32ArrayMemory0 = null;
@@ -124,24 +122,25 @@ function takeFromExternrefTable0(idx) {
     return value;
 }
 
-let cachedTextDecoder = new TextDecoder('utf-8', { ignoreBOM: true, fatal: true });
+let cachedTextDecoder = new TextDecoder('utf-8', { ignoreBOM: true });
 cachedTextDecoder.decode();
 const MAX_SAFARI_DECODE_BYTES = 2146435072;
 let numBytesDecoded = 0;
-function decodeText(ptr, len) {
-    numBytesDecoded += len;
+function decodeText(bytes) {
+    numBytesDecoded += bytes.length;
     if (numBytesDecoded >= MAX_SAFARI_DECODE_BYTES) {
-        cachedTextDecoder = new TextDecoder('utf-8', { ignoreBOM: true, fatal: true });
+        cachedTextDecoder = new TextDecoder('utf-8', { ignoreBOM: true });
         cachedTextDecoder.decode();
-        numBytesDecoded = len;
+        numBytesDecoded = bytes.length;
     }
-    return cachedTextDecoder.decode(getUint8ArrayMemory0().subarray(ptr, ptr + len));
+    return cachedTextDecoder.decode(bytes);
 }
 
 let WASM_VECTOR_LEN = 0;
 
-let wasmModule, wasm;
+let wasmModule, wasmInstance, wasm;
 function __wbg_finalize_init(instance, module) {
+    wasmInstance = instance;
     wasm = instance.exports;
     wasmModule = module;
     cachedFloat32ArrayMemory0 = null;
@@ -153,11 +152,15 @@ function __wbg_finalize_init(instance, module) {
 
 async function __wbg_load(module, imports) {
     if (typeof Response === 'function' && module instanceof Response) {
+        if (!module.ok) {
+            throw new Error(`failed to fetch Wasm: ${module.status} ${module.statusText} fetching '${module.url}'`);
+        }
+
         if (typeof WebAssembly.instantiateStreaming === 'function') {
             try {
                 return await WebAssembly.instantiateStreaming(module, imports);
             } catch (e) {
-                const validResponse = module.ok && expectedResponseType(module.type);
+                const validResponse = expectedResponseType(module.type);
 
                 if (validResponse && module.headers.get('Content-Type') !== 'application/wasm') {
                     console.warn("`WebAssembly.instantiateStreaming` failed because your server does not serve Wasm with `application/wasm` MIME type. Falling back to `WebAssembly.instantiate` which is slower. Original error:\n", e);
@@ -206,9 +209,17 @@ function initSync(module) {
     return __wbg_finalize_init(instance, module);
 }
 
+let __wbg_init_promise;
 async function __wbg_init(module_or_path) {
     if (wasm !== undefined) return wasm;
+    if (__wbg_init_promise === undefined) {
+        __wbg_init_promise = __wbg_init_once(module_or_path);
+        __wbg_init_promise.catch(() => { __wbg_init_promise = undefined; });
+    }
+    return __wbg_init_promise;
+}
 
+async function __wbg_init_once(module_or_path) {
 
     if (module_or_path !== undefined) {
         if (Object.getPrototypeOf(module_or_path) === Object.prototype) {

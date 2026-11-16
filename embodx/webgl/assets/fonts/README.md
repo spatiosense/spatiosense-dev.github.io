@@ -1,7 +1,7 @@
 # Viewer fonts
 
-- `fira-bevy-0.19.1/`: the five unmodified faces shipped by `bevy_feathers`
-  0.19.1. Their SIL licenses are included beside the files.
+- `fira-bevy-0.20.1/`: the six unmodified faces shipped by `bevy_feathers`
+  0.20.1. Their SIL licenses are included beside the files.
 - `lucide-0.563.0.ttf`: unmodified `lucide.ttf` from the resolved `lucide-icons`
   0.563.0 crate. Its Unicode mapping must match that crate's `Icon` enum.
   `Lucide-LICENSE` comes from the upstream Lucide 0.563.0 release:
