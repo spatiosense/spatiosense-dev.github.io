@@ -1,5 +1,6 @@
 // Trunk callback contract, shared by standalone and directly mounted viewers.
-// Progress describes downloaded bytes only; initialization has no known total.
+// Progress uses decoded bytes; the encoded response size is supplied separately.
+// Initialization has no known total.
 const brandRoot = new URL("./brand/", import.meta.url);
 
 export default function initializer(options = {}) {
@@ -229,10 +230,14 @@ export default function initializer(options = {}) {
       reveal = 0;
       mount();
     },
-    onProgress({ current, total }) {
+    onProgress({ current, total, downloadTotal }) {
       if (phase !== "downloading") return;
       const knownTotal = Number.isFinite(total) && total > 0;
       const bytes = Number.isFinite(current) ? Math.max(0, current) : 0;
+      const downloadSize =
+        Number.isFinite(downloadTotal) && downloadTotal > 0
+          ? `${humanBytes(downloadTotal)} download`
+          : "";
       root.toggleAttribute("data-indeterminate", !knownTotal);
       if (knownTotal) {
         const ratio = Math.min(1, bytes / total);
@@ -240,11 +245,14 @@ export default function initializer(options = {}) {
         updateLogo(ratio * 0.9);
         root.style.setProperty("--download", `${ratio * 100}%`);
         progress.setAttribute("aria-valuenow", String(Math.round(ratio * 100)));
-        amount.textContent = `${humanBytes(bytes)} / ${humanBytes(total)} · ${Math.round(ratio * 100)}%`;
+        const percentage = `${Math.round(ratio * 100)}%`;
+        amount.textContent = [downloadSize, percentage]
+          .filter(Boolean)
+          .join(" · ");
         if (ratio === 1) preparing();
       } else {
         progress.removeAttribute("aria-valuenow");
-        amount.textContent = `${humanBytes(bytes)} downloaded`;
+        amount.textContent = downloadSize || "Downloading…";
       }
     },
     onComplete: preparing,
