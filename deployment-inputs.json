@@ -2,7 +2,7 @@
   "schema": 1,
   "hashes": {
     "web": "e2752c0b0dfd206fdd8067b776884fc59d6b43204e4bd4f36dc415d104d380f3",
-    "wasm": "0070166b8915809b95ed777c78e5a7ce37b50cf09c22b9e4b83e81fddc41ef0c",
+    "wasm": "41a6d4d278f8d59567aa0ebebc62db488ba3345b34bec3a39bd805f12c33d459",
     "assembly": "5129af2c16d30c681d1b25e458f174ca7f99a59f0b8b210d94345a0e95444848"
   },
   "webSource": {
