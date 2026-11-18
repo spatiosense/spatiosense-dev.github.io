@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #f8f9fb;
+  background: var(--background, #f8f9fb);
 }
 .workspace-skeleton {
   display: flex;
