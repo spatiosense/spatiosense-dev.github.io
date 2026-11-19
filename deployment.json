@@ -7,17 +7,17 @@
     "dirty": false
   },
   "build": {
-    "timestamp": "2026-11-18T09:27:00.127Z",
-    "artifactHash": "sha256:0353f0b3d9ea9db44ee5e17adab7d53027fc7d31775193573cccc0f4fc71cac2"
+    "timestamp": "2026-11-19T06:04:25.622Z",
+    "artifactHash": "sha256:58837fc984f0a70cbdcdff1cc1c17d97934a45cdd0592289cdeddab6487d7c6a"
   },
   "embodx": {
-    "commit": "c932a7d3790856c7672070467f4cd08099195f61",
+    "commit": "a3ed516ab3973b0cc0016171fbcccc84ec6a904e",
     "branch": "detached",
     "dirtyAtStart": false,
-    "startedAt": "2026-11-18T08:53:52.180Z",
+    "startedAt": "2026-11-19T05:45:01.372Z",
     "lto": "thin"
   },
   "release": {
-    "commit": "c932a7d3790856c7672070467f4cd08099195f61"
+    "commit": "a3ed516ab3973b0cc0016171fbcccc84ec6a904e"
   }
 }
