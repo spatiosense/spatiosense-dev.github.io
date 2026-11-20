@@ -5,12 +5,12 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:b63baa681e97866c7a2dff65f9e4a44a6fd5c5c5f1a0da4f3cc7104ebfce2421",
+  "sourceHash": "sha256:ac0668162a6be040394d87d66a9ddc1a18393d4fb09d868c23fb0f1f2d875463",
   "build": {
-    "commit": "a3ed516ab3973b0cc0016171fbcccc84ec6a904e",
+    "commit": "21aa19836d622b3e2fb5f76fe2db049376b8da00",
     "branch": "detached",
     "dirtyAtStart": false,
-    "startedAt": "2026-11-19T05:45:01.372Z",
+    "startedAt": "2026-11-20T05:08:44.078Z",
     "lto": "thin"
   },
   "artifacts": [
@@ -87,6 +87,14 @@
       "sha256": "d2db1d35886a8536acd9afb7088eadf9a01ad74c55d3da53c22fc492b9f7e0f6"
     },
     {
+      "path": "webgl/assets/ui/base.css",
+      "sha256": "73487c080bf2437bce60a4610ff6636836d4c206b77bfe2087bc1850bc5d8b6e"
+    },
+    {
+      "path": "webgl/b81e8b5329a162fe-initializer.mjs",
+      "sha256": "a97cdf8db79d677fd1ec7bc6d8bf35ce738caf5725347ee89148724c5acf3f91"
+    },
+    {
       "path": "webgl/brand/logo-cube.webp",
       "sha256": "e0bc6693df256d2ef22b2325a14fcff19a71544a53c3c43d15f3292246ab533c"
     },
@@ -99,20 +107,16 @@
       "sha256": "ceb439c9187c5968cd37ec3d9a7e52f050cd172af6a03b12e0f029d9df9c141f"
     },
     {
-      "path": "webgl/cb3c5b0c7319513f-initializer.mjs",
-      "sha256": "f29cf21e7c060946c6e91df7adf65ca94de4757e2c37a9df44646c593dfebb3a"
+      "path": "webgl/embodx-fb72dacee51cdd1d_bg.wasm",
+      "sha256": "5da98d007538bfd59ae8873f94e4dfcb1797982ffe6d2bc234c33c7fa1836f0e"
     },
     {
-      "path": "webgl/embodx-24e59e3162a2e9c_bg.wasm",
-      "sha256": "c78a881eeee8b22b79053804920e5f5e8a17e35d789d95c3e218423859413657"
-    },
-    {
-      "path": "webgl/embodx-24e59e3162a2e9c.js",
-      "sha256": "b01959efdb15cb3c148b0b92e140f326bdb3fb57edee2406125c2cdb06ae865c"
+      "path": "webgl/embodx-fb72dacee51cdd1d.js",
+      "sha256": "4b7e0e902e879d5050f6bab806023f9f8571f6c540bd4f35d766828fa0f31999"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "c953967affcd84b4ddb8b4762844f68110aa3de358101e15675ea1ee48280944"
+      "sha256": "ef1b98a40a62976dc160e0034c413327676fb85779695c40f77dd07942338c22"
     },
     {
       "path": "webgl/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
@@ -125,6 +129,10 @@
     {
       "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
       "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
+    },
+    {
+      "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/viewer_bridge/browser.mjs",
+      "sha256": "d570e63b8a2103f48c952f6ededf577f07a28f3db0e0d5bc8d3a95179d3cd632"
     },
     {
       "path": "webgl/snippets/spatiosense_widgets-2a7736543fc3aa32/src/widget/text_input/browser.mjs",
@@ -223,6 +231,14 @@
       "sha256": "d2db1d35886a8536acd9afb7088eadf9a01ad74c55d3da53c22fc492b9f7e0f6"
     },
     {
+      "path": "webgpu/assets/ui/base.css",
+      "sha256": "73487c080bf2437bce60a4610ff6636836d4c206b77bfe2087bc1850bc5d8b6e"
+    },
+    {
+      "path": "webgpu/b81e8b5329a162fe-initializer.mjs",
+      "sha256": "a97cdf8db79d677fd1ec7bc6d8bf35ce738caf5725347ee89148724c5acf3f91"
+    },
+    {
       "path": "webgpu/brand/logo-cube.webp",
       "sha256": "e0bc6693df256d2ef22b2325a14fcff19a71544a53c3c43d15f3292246ab533c"
     },
@@ -235,20 +251,16 @@
       "sha256": "ceb439c9187c5968cd37ec3d9a7e52f050cd172af6a03b12e0f029d9df9c141f"
     },
     {
-      "path": "webgpu/cb3c5b0c7319513f-initializer.mjs",
-      "sha256": "f29cf21e7c060946c6e91df7adf65ca94de4757e2c37a9df44646c593dfebb3a"
+      "path": "webgpu/embodx-653fa4f95838527e_bg.wasm",
+      "sha256": "7801364feb31af9fc5aa13f76642b7ad3c0339893ead81ea6768a601885eabbc"
     },
     {
-      "path": "webgpu/embodx-df5ca79d0bac86f3_bg.wasm",
-      "sha256": "4e51ddc882fe09e9ba0b3f8f24ff5e016da290f33114af921472e8026d7f7828"
-    },
-    {
-      "path": "webgpu/embodx-df5ca79d0bac86f3.js",
-      "sha256": "04a6ebfb95b7438c9fd1b07f615bf2eb95fe9e638789b2f4ddc3ecc3a13e5547"
+      "path": "webgpu/embodx-653fa4f95838527e.js",
+      "sha256": "003ec9f955f5532c7ab87aaab9887102ebb13102b649cec3542221bc06d45f2a"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "79b013f97f02041f4bf0eac40837a2b7f7c411f7d066b0f63fda15f0bed7a8e7"
+      "sha256": "3cc63d659326e251191e99e8893cd2605a85984c622e95980fde44d6d26e9d1b"
     },
     {
       "path": "webgpu/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
@@ -261,6 +273,10 @@
     {
       "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
       "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
+    },
+    {
+      "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/viewer_bridge/browser.mjs",
+      "sha256": "d570e63b8a2103f48c952f6ededf577f07a28f3db0e0d5bc8d3a95179d3cd632"
     },
     {
       "path": "webgpu/snippets/spatiosense_widgets-2a7736543fc3aa32/src/widget/text_input/browser.mjs",
