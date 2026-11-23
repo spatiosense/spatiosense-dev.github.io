@@ -3593,17 +3593,17 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000002: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 191141, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 191130, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECsgpz7Lb0fMZ3_12wasm_streams);
             return ret;
         },
         __wbindgen_generic_0000000000000003: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 191190, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 191179, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1KKAfSMwHPu_8web_task);
             return ret;
         },
         __wbindgen_generic_0000000000000004: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit);
             return ret;
         },
@@ -3613,12 +3613,12 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000006: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Array<any>"), NamedExternref("ResizeObserver")], shim_idx: 192865, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Array<any>"), NamedExternref("ResizeObserver")], shim_idx: 192854, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress4_1__6invokeNtCslPkL40lKFcQ_6js_sys5ArrayNtNtNtCs82T35VS3BqB_7web_sys8features18gen_ResizeObserver14ResizeObserveruKb1_ECs1Q9x7nwwJwv_5winit);
             return ret;
         },
         __wbindgen_generic_0000000000000007: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Array<any>")], shim_idx: 192864, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Array<any>")], shim_idx: 192853, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtCslPkL40lKFcQ_6js_sys5ArrayuKb1_ECs1Q9x7nwwJwv_5winit);
             return ret;
         },
@@ -3628,7 +3628,7 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000009: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Event")], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("Event")], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit_19);
             return ret;
         },
@@ -3638,27 +3638,27 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_000000000000000b: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("FocusEvent")], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("FocusEvent")], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit_21);
             return ret;
         },
         __wbindgen_generic_000000000000000c: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("GPUDevice")], shim_idx: 191610, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("GPUDevice")], shim_idx: 191599, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeINtNtB8_3sys8JsOptionNtNtNtNtNtCserbU2oGcgcV_4wgpu7backend6webgpu10webgpu_sys12gen_GpuError8GpuErrorEINtNtCs8hZryZq3oeI_4core6result6ResultuNtB8_7JsErrorEKb1_EB1z_);
             return ret;
         },
         __wbindgen_generic_000000000000000d: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("GPUDeviceLostInfo")], shim_idx: 191611, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("GPUDeviceLostInfo")], shim_idx: 191600, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtNtNtNtNtCserbU2oGcgcV_4wgpu7backend6webgpu10webgpu_sys21gen_GpuDeviceLostInfo17GpuDeviceLostInfouKb1_EB1e_);
             return ret;
         },
         __wbindgen_generic_000000000000000e: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("GPUUncapturedErrorEvent")], shim_idx: 191611, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("GPUUncapturedErrorEvent")], shim_idx: 191600, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtNtNtNtNtCserbU2oGcgcV_4wgpu7backend6webgpu10webgpu_sys21gen_GpuDeviceLostInfo17GpuDeviceLostInfouKb1_EB1e__24);
             return ret;
         },
         __wbindgen_generic_000000000000000f: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("KeyboardEvent")], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("KeyboardEvent")], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit_25);
             return ret;
         },
@@ -3668,32 +3668,32 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000011: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("PageTransitionEvent")], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("PageTransitionEvent")], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit_27);
             return ret;
         },
         __wbindgen_generic_0000000000000012: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("PointerEvent")], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("PointerEvent")], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit_28);
             return ret;
         },
         __wbindgen_generic_0000000000000013: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("WheelEvent")], shim_idx: 192863, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("WheelEvent")], shim_idx: 192852, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeNtB8_7JsValueuKb1_ECs1Q9x7nwwJwv_5winit_29);
             return ret;
         },
         __wbindgen_generic_0000000000000014: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("any")], shim_idx: 191610, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("any")], shim_idx: 191599, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeINtNtB8_3sys8JsOptionNtNtNtNtNtCserbU2oGcgcV_4wgpu7backend6webgpu10webgpu_sys12gen_GpuError8GpuErrorEINtNtCs8hZryZq3oeI_4core6result6ResultuNtB8_7JsErrorEKb1_EB1z__30);
             return ret;
         },
         __wbindgen_generic_0000000000000015: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("undefined")], shim_idx: 191610, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("undefined")], shim_idx: 191599, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeINtNtB8_3sys8JsOptionNtNtNtNtNtCserbU2oGcgcV_4wgpu7backend6webgpu10webgpu_sys12gen_GpuError8GpuErrorEINtNtCs8hZryZq3oeI_4core6result6ResultuNtB8_7JsErrorEKb1_EB1z__31);
             return ret;
         },
         __wbindgen_generic_0000000000000016: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Option(NamedExternref("Blob"))], shim_idx: 192862, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Option(NamedExternref("Blob"))], shim_idx: 192851, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress2_1__6invokeINtNtCs8hZryZq3oeI_4core6option6OptionNtNtNtCs82T35VS3BqB_7web_sys8features8gen_Blob4BlobEuKb1_ECs1Q9x7nwwJwv_5winit);
             return ret;
         },
@@ -3703,7 +3703,7 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000018: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [], shim_idx: 192861, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [], shim_idx: 192850, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, _RINvNvNtNtCsd9eGHyu13V0_12wasm_bindgen7convert8closuress0_1__6invokeuKb1_ECs1Q9x7nwwJwv_5winit);
             return ret;
         },

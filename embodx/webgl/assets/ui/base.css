@@ -1099,62 +1099,10 @@ span {
   flex-shrink: 1;
 }
 .spx-shell-sidebar-slot {
+  width: 0px;
   height: 100%;
   flex-shrink: 0;
   overflow: clip;
-}
-.spx-shell-sidebar {
-  width: 292px;
-  min-width: 292px;
-  height: 100%;
-  flex-direction: column;
-  row-gap: 4px;
-  flex-shrink: 0;
-}
-.spx-shell-sidebar-card {
-  width: 100%;
-  flex-direction: column;
-  row-gap: 8px;
-  padding: 12px;
-  border-width: 1px;
-  border-radius: 6px;
-}
-.spx-shell-sidebar-heading {
-  font-size: 10px;
-}
-.spx-shell-sidebar-rows {
-  width: 100%;
-  flex-direction: column;
-  row-gap: 4px;
-}
-.spx-shell-sidebar-row {
-  width: 100%;
-  height: 30px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  column-gap: 8px;
-  padding: 0px 8px;
-  border-width: 1px;
-  border-radius: 4px;
-}
-.spx-shell-sidebar-row-caption {
-  flex-direction: row;
-  align-items: center;
-  column-gap: 8px;
-  min-width: 0px;
-}
-.spx-status-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 3.5px;
-  flex-shrink: 0;
-}
-.spx-shell-sidebar-label {
-  font-size: 11px;
-}
-.spx-shell-sidebar-value {
-  font-size: 10px;
 }
 .spx-viewport-well {
   width: 0px;
@@ -3109,27 +3057,6 @@ span {
 .spx-header {
   border-color: var(--spx-border-subtle);
 }
-.spx-shell-sidebar-card {
-  background-color: var(--spx-surface-soft);
-}
-.spx-shell-sidebar-card {
-  border-color: var(--spx-border-subtle);
-}
-.spx-shell-sidebar-card .spx-shell-sidebar-heading {
-  color: var(--spx-text-muted);
-}
-.spx-shell-sidebar-row {
-  background-color: var(--spx-surface-clear);
-}
-.spx-shell-sidebar-row {
-  border-color: var(--spx-surface-clear);
-}
-.spx-shell-sidebar-row .spx-shell-sidebar-row-caption .spx-shell-sidebar-label {
-  color: var(--spx-text-primary);
-}
-.spx-shell-sidebar-row .spx-shell-sidebar-value {
-  color: var(--spx-text-secondary);
-}
 .spx-annotation-filter
   .spx-annotation-filter-header
   .spx-annotation-filter-title {
@@ -3490,8 +3417,7 @@ span {
 .spx-participant-cursor-badge,
 .spx-participant-avatar,
 .spx-annotation-filter-swatch,
-.spx-lod-legend-swatch,
-.spx-status-dot {
+.spx-lod-legend-swatch {
   -spx-content-background: 1;
 }
 .spx-participant-cursor-glyph {
